@@ -67,4 +67,13 @@
       infinite: true
     }).slickAnimation();
   }
+
+  if ($(".t-active").length > 0) {
+    $('.t-active').slick({
+      slidesToShow: 1,
+      autoplay: false,
+      dots: false,
+      infinite: true
+    });
+  }
 }(jQuery);
