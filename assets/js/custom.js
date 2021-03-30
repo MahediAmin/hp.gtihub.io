@@ -63,7 +63,7 @@
       slidesToShow: 1,
       autoplay: false,
       fade: true,
-      dots: true,
+      dots: false,
       infinite: true
     }).slickAnimation();
   }
